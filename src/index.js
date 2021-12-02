@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { ChakraProvider, theme, CSSReset } from "@chakra-ui/react";
 
 import App from "./App";
-theme.config.initialColorMode = "dark";
+theme.config.initialColorMode = "light";
 
 console.log(theme);
 console.log(CSSReset)
